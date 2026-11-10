@@ -1,8 +1,16 @@
 ## Sean Cook
 
-I build AI agent systems and own them end to end: architecture, data model, integrations, testing, and the rollout into a live operation. I'm the founder of [Halan Digital](https://halandigital.com), most recently Chief of AI (fractional) for a staffing firm, and before that a reservoir engineer for 15 years, working on-site inside client teams at Saudi Aramco and ExxonMobil.
+I build AI agent systems and own them end to end: architecture, data model, integrations, testing, and the rollout into a live operation.
 
-I also owned and ran a chiropractic clinic for two and a half years (intake, scheduling, billing, insurance credentialing), so I know healthcare administration from the front desk, not only from a spec.
+**Now**
+- **Chief AI Officer at a sports-technology startup.** I'm helping bootstrap a pre-launch NIL platform for student-athletes, and I own its AI strategy and platform architecture ([details below](#production-systems-client-work-anonymized-code-is-private)).
+- **Founder of [Halan Digital](https://halandigital.com)**, an AI consultancy that provides fractional AI leadership and production AI builds for operating companies in staffing, field services, and sports tech.
+- **Technical lead on a Microsoft Copilot Studio agent** for a public college, through a higher-education AI advisory firm.
+
+**Before**
+- **Chief of AI (fractional) for a virtual-staffing firm.** I set the AI strategy, rolled it out to the team, and built the recruiting pipeline that saved 5 recruiters 10 hours a week each.
+- **Owner and operator of two service businesses with 27+ staff:** a junk-removal and moving franchise (P&L, hiring, payroll, dispatch for 5 trucks) and a chiropractic clinic (intake, scheduling, billing, insurance credentialing). I bought the franchise through a self-funded search after reviewing 300+ businesses.
+- **Reservoir engineer for 15 years**, working on-site inside client teams at Saudi Aramco and ExxonMobil, including $1B+ projects.
 
 **How I build:** I design the system and build it with AI coding agents (multi-agent orchestration in Claude Code). I own the architecture, data model, integration design, code review and testing, and I ship behind shadow modes, allowlists and fail-closed gates before anything touches real users.
 
@@ -27,7 +35,7 @@ An AI voice agent calls field technicians after each job and writes the verified
 `n8n` `REST` `OData` `webhooks` `voice AI` `Python`
 
 **NIL sports-tech platform: pre-launch startup · hosted pilot**
-I'm the platform architect for a privacy-first product that handles minors' data with guardian consent. The architecture uses ports and adapters with a versioned, fail-closed rules engine; an idempotent, state-driven orchestrator; and an insert-only audit log. A model router sends sensitive data only to US-hosted, zero-retention models and has a kill switch with no silent fallback. Row-level security and separate runtime database roles are built into every migration, and the page CSP is enforced. CI runs typechecks, import-boundary checks, database policy tests (pgTAP), a Docker boot smoke test and a dependency audit on every change.
+As Chief AI Officer, I architected a privacy-first product that handles minors' data with guardian consent. The architecture uses ports and adapters with a versioned, fail-closed rules engine; an idempotent, state-driven orchestrator; and an insert-only audit log. A model router sends sensitive data only to US-hosted, zero-retention models and has a kill switch with no silent fallback. Row-level security and separate runtime database roles are built into every migration, and the page CSP is enforced. CI runs typechecks, import-boundary checks, database policy tests (pgTAP), a Docker boot smoke test and a dependency audit on every change.
 `TypeScript` `Next.js` `Postgres` `Anthropic API` `AWS Bedrock` `Vitest` `Playwright` `GitHub Actions` `Sentry`
 
 **Six-agent AI operating dashboard: real-estate investing summit**
